@@ -3114,6 +3114,10 @@
 			#header.alt h1 {
 				font-size: 3.25em;
 			}
+			
+			#header.alt p {
+				margin-bottom: -4em;
+			}
 
 			#header.alt > * {
 				-moz-transition: opacity 3s ease;
