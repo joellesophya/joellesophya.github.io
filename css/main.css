@@ -3115,10 +3115,6 @@
 				font-size: 3.25em;
 			}
 			
-			#header.alt p {
-				margin-bottom: -1.4em;
-			}
-
 			#header.alt > * {
 				-moz-transition: opacity 3s ease;
 				-webkit-transition: opacity 3s ease;
