@@ -16,4 +16,10 @@ author :
   
 markdown: kramdown
 
+# Have Jekyll automatically get my time zone
+timezone: TIMEZONE
+
+# Tell Jekyll to show future posts
+future: true
+
 # production_url : http://joellesophya.github.io
