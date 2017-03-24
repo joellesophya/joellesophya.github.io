@@ -1,2 +1,19 @@
-name: "Joelle Mbatchou's Web page"
-	markdown: kramdown
+
+exclude: [..., "ReadMe.md"]
+
+highlighter: rouge
+# Themes are encouraged to use these universal variables
+# so be sure to set them if your theme uses them.
+#
+title : Joelle Mbatchou Web page
+author :
+  name : Joelle Mbatchou
+  email : jmbatchou@uchicago.edu
+  github : joellesophya
+  twitter : jojoladisco
+  feedburner : nil
+  
+  
+markdown: kramdown
+
+# production_url : http://joellesophya.github.io
