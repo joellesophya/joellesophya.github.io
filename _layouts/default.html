@@ -2,6 +2,7 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
+			<meta charset="utf-8" />
 			<!-- link to main stylesheet -->
 			<meta name="viewport" content="width=device-width, initial-scale=1" />
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -19,23 +20,44 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="/" class="active">home</a></li>
-							<li><a href="/research">Research</a></li>
-							<li><a href="/cv">CV</a></li>
-							<li><a href="/blog">Blog</a></li>
+							<li><a href="#intro" class="active">Introduction</a></li>
+							<li><a href="#first">Research</a></li>
+							<li><a href="#second">CV</a></li>
+							<li><a href="#blog">Blog</a></li>
 						</ul>
 					</nav>
-					<div class="container">
+					
+					
+					
+				<!-- Main stuff -->
+					<div id="main" class="container">
 					
 					{{ content }}
 					
 					</div><!-- /.container -->
-					<footer>
-						<ul>
-							<li><a href="mailto:jmbatchou@uchicago.edu">jmbatchou(at)uchicago(dot)edu</a></li>
-							<li><a href="https://github.com/joellesophya">My github</a></li>
-						</ul>
+					
+					
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Contact me</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>5747 S. Ellis Avenue &bull; Chicago, IL 60637 &bull; USA</dd>
+								<dt>Phone</dt>
+								<dd>1-773-599-2825</dd>
+								<dt>Email</dt>
+								<dd><a href="mailto:jmbatchou@uchicago.edu">jmbatchou(at)uchicago(dot)edu</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="http://twitter.com/jojoladisco" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="http://github.com/joellesophya" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; J. Mbatchou</p>
 					</footer>
 			</div>
+			
+			<!-- Scripts NEEDED ???  -->
 		</body>
 	</html>
