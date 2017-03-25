@@ -2520,6 +2520,12 @@
 				ul.icons li:last-child {
 					padding-right: 0 !important;
 				}
+				
+			/* Make icons move up and down when mouse is on them */
+			ul.icons li:hover {
+				position: relative; 
+				top: -5px;
+			}
 
 		ul.actions {
 			cursor: default;
@@ -3723,7 +3729,7 @@
 			font-size: 0.8em;
 			text-align: center;
 		}
-
+		
 		@media screen and (max-width: 1280px) {
 
 			#footer {
