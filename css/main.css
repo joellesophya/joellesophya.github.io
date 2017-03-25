@@ -2522,9 +2522,8 @@
 				}
 				
 			/* Make icons move up and down when mouse is on them */
-			ul.icons li a:hover {
-				position: relative; 
-				top: -2em;
+			ul.icons li:hover {
+				top: -1.1em;
 			}
 
 		ul.actions {
