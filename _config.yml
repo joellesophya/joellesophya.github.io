@@ -23,3 +23,5 @@ timezone: TIMEZONE
 future: true
 
 # production_url : http://joellesophya.github.io
+
+google_analytics: UA-96673765-1
