@@ -2493,6 +2493,11 @@ ul li {
     padding-left: 0.5em;
 }
 
+ul.features li p{
+    text-align: left;
+}
+
+
 ul.alt {
     list-style: none;
     padding-left: 0;
