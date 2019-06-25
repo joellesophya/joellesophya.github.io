@@ -8,7 +8,7 @@ title: Joelle Mbatchou's Webpage
 			<header class="major">
 				<h2>Welcome!</h2>
 			</header>
-            <p><span class="image right"><img src="images/uchicago.png" alt="" /></span>I am a recent PhD graduate (June 2019) in Statistics at the University of Chicago working under Prof. Mary Sara McPeek. My research focus is in statistical genetics. Read more about it <a href="#first">below.</a>. If you want to get in touch, you can reach me by <a href="mailto:joelle.mbatchou@gmail.com">email</a>.</p> 
+            <p><span class="image right"><img src="images/uchicago.png" alt="" /></span>I am a recent PhD graduate (June 2019) in Statistics at the University of Chicago under the supervision of Prof. Mary Sara McPeek. My research focus is in statistical genetics; you can read more about it <a href="#first">below</a>. If you want to get in touch with me, you can reach me by <a href="mailto:joelle.mbatchou@gmail.com">email</a>.</p> 
             <p>Thank you for visiting!</p>
 			<!--
 			<ul class="actions">
@@ -22,18 +22,23 @@ title: Joelle Mbatchou's Webpage
 	<section id="first" class="main special">
 		<header class="major">
 			<h2>Research</h2>
-			<p> My work is on developing methods to assess significance in the context of genetic association analysis in structured samples</p>
+			<p> My research is centered on genetic association analysis in structured samples, where a primary goal is to identify association between genetic markers (e.g. SNPs) and a phenotype of interest (e.g. complex human trait or gene expression levels). Sample structure can arise through the presence of indiviuals from different population subgroups (population stratification) or individuals who are related, and needs to be accounted for when performing association analyses.</p>
 		</header>
 		<ul class="features">
 			<li>
 				<span class="icon major style1 fa-folder-open"></span>
-				<h3>Resampling Method</h3>
-				<p>Generate replicates of a binary trait in structured samples based on a quasi-likelihood framework.</p>
+				<h3>Permutation Methods in Binary Trait Association Mapping</h3>
+				<p>Identifying genetic associations involves assessing the statistical significance of a given test statistic by deriving its null distribution or an asymptotic approximation to it. However, this is not always feasible as the distribution may be intractable, which can arise for example with region-based tests (e.g. rare variant tests).
+                A further limitation can arise when significance needs to be assessed for the maximum of many correlated tests, which is often encountered in genome scans to establish a genome-wide significance threshold.
+                We develop a novel method to overcome these limitations when testing association between a binary trait and an arbitrary predictor in samples with population structure and/or related individuals.
+                </p>
 			</li>
 			<li>
 				<span class="icon major style3 fa-folder-open"></span>
-				<h3>Moment-matching method</h3>
-				<p> Use a moment-matching approximation to assess significance for a general class of test statistics while incorporating the structure present in the sample.</p>
+				<h3>Fast Method for Assessing Significance for a Wide Class of Association Tests</h3>
+				<p> We focus on assessment of significance in genetic association analysis of single or multi-dimensional phenotypes, including high-dimensional phenotypes, where we consider test statistics of a certain form, with association being tested with either a single genetic marker or with multiple genetic markers simultaneously. Existing approaches are either computationally burdensome (permutation-based approaches), or do not perform well in settings such as small samples, high-dimensional traits, or misspecified phenotype model, or do not account for existing sample structure when it is present. We develop a novel method to assess significance for a broad class of test statistics currently used in gentic association analysis that is based on moment-matching and allows for very general population structure and relatedness in the sample.
+
+                </p>
 			</li>
 		</ul>
 
