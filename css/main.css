@@ -2355,7 +2355,7 @@ input[type="radio"]:focus + label:before {
 .icon.style2 {
     color: #c79cc8;
     float: left;
-    margin: 4.5em 2em 4em 2em;
+    margin: 5em 2em 4em 2em;
 }
 
 .icon.style3 {
