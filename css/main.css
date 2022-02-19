@@ -3151,7 +3151,6 @@ table.alt tbody tr td {
 #header.alt .logo img {
     display: block;
     margin: 0 auto;
-    max-width: 50%;
     width: 10%;
     height: auto;
 }
