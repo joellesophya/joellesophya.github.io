@@ -3151,7 +3151,8 @@ table.alt tbody tr td {
 #header.alt .logo img {
     display: block;
     margin: 0 auto;
-    width: 10%;
+    width: 13%;
+    clip-path: ellipse(31% 40% at 50% 50%);
     height: auto;
 }
 
