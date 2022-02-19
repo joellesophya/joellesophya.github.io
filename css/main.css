@@ -2365,6 +2365,11 @@ input[type="radio"]:focus + label:before {
     color: #8cc9f0;
 }
 
+.icon.stylecen {
+    color: #8cc9f0;
+    float: left;
+}
+
 @media screen and (max-width: 1680px) {
 
     .icon.major:before {
