@@ -3152,8 +3152,8 @@ table.alt tbody tr td {
     display: block;
     margin: 0 auto;
     width: 13%;
-    clip-path: ellipse(31% 40% at 50% 50%);
     height: auto;
+    clip-path: ellipse(38% 43% at 50% 44%);
 }
 
 @media screen and (max-width: 1280px) {
