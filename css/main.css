@@ -2348,7 +2348,7 @@ input[type="radio"]:focus + label:before {
 
 .icon.style1 {
     color: #efa8b0;
-    float: left;
+    float: right;
 }
 
 .icon.style2 {
