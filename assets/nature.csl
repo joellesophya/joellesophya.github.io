@@ -131,7 +131,7 @@
       <text variable="citation-number"/>
     </layout>
   </citation>
-  <bibliography et-al-min="120" et-al-use-first="100" second-field-align="flush" entry-spacing="0" line-spacing="2">
+  <bibliography et-al-min="12" et-al-use-first="10" second-field-align="flush" entry-spacing="0" line-spacing="2">
     <sort>
       <key variable="issued" sort="descending"/>
       <key variable="citation-number"/>
