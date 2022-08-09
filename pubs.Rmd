@@ -1,0 +1,14 @@
+---
+title: "My publications"
+bibliography: assets/myrefs.bib
+csl: assets/nature.csl
+nocite: '@*'
+output:
+  distill::distill_article:
+    theme: null
+    css: [ 'assets/theme_pubs.css' , 'assets/theme.css' ]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

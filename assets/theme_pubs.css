@@ -1,0 +1,40 @@
+
+/* base variables */
+
+/* Edit the CSS properties in this file to create a custom
+   Distill theme. Only edit values in the right column
+   for each row; values shown are the CSS defaults.
+   To return any property to the default,
+   you may set its value to: unset
+   All rows must end with a semi-colon.                      */
+
+/* Optional: embed custom fonts here with `@import`          */
+/* This must remain at the top of this file.                 */
+@import url('https://fonts.googleapis.com/css2?family=Garamond');
+
+#refs.references {
+  font-size: 1.05rem;
+  color: black;
+  font-family: 'Garamond', sans-serif !important;
+}
+
+#refs.references p {
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px;
+    background: #f5f5f5 5px center/3em no-repeat;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+h3#references {
+    display: none;
+}
+
+d-article {
+    display: none;
+}
+
+d-appendix {
+    margin-top: 0px;
+    padding-top: 15px;
+}

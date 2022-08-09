@@ -1,0 +1,47 @@
+---
+title: "My research interests"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(fontawesome)
+paste.link <- function(text, link)
+    paste0("[", text, "](", link, ")")
+```
+
+I currently work as a statistical geneticist at the Regeneron Genetics Center where my research focuses on developing statistical methods and computational tools for large-scale genetic association analyses to better understand the impact of genetic variation on human disease.
+
+Prior to joining Regeneron, I obtained my PhD in Statistics from the University of Chicago under the supervision of Prof. Mary Sara McPeek where I built statistical models for genetic association analysis in structured samples.
+
+A key goal in my work is to identify associations between genetic markers (e.g. SNPs) and a phenotype of interest (e.g. complex human trait or gene expression levels). 
+More recently, I have also been interested in building efficient models and tools for applications to 
+large-scale biobanks (e.g. 100,000s of individuals and 1,000s of phenotypes).
+
+<br>
+
+::: {.cardbox data-latex="{caution}"}
+## `r fa("dna", fill = "steelblue")` Computational Efficient Whole Genome Regression for Large-Scale biobanks
+Advances in sequencing technologies have enabled for biobanks to gather genetic information on hundred of thousands of individuals. Along with the use of electronic health records, this provides an invaluable reosurce to better understand how genetic variation influence human disease. Many association mapping tools have been released to analyze data at this scale yet they still remain highly computationally burdensome. We developed a novel tool for efficient genetic association analyses which reduces the computational requirements of current state-of-the-art tools by using a whole genome regression framework within a machine learning model. You can read more about it `r paste.link("here", "https://doi.org/10.1038/s41588-021-00870-7")`.
+
+:::
+
+<br>
+
+::: {.cardbox data-latex="{caution}"}
+## `r fa("dna", fill = "#F05D35")` Permutation Methods in Binary Trait Association Mapping
+Identifying genetic associations involves assessing the statistical significance of a given test statistic by deriving its null distribution or an asymptotic approximation to it. However, this is not always feasible as the distribution may be intractable. 
+This can be encountered in genome scans to establish a genome-wide significance threshold for the maximum of many correlated tests. 
+We develop a novel method to overcome these limitations when testing association between a binary trait and an arbitrary predictor in samples with population structure. Manuscript is available `r paste.link("here", "https://www.biorxiv.org/content/10.1101/451377v2")`.
+
+:::
+
+<br>
+
+::: {.cardbox data-latex="{caution}"}
+## `r fa("dna", fill = "#30D390")` Fast Method for Assessing Significance for a Wide Class of Association Tests
+We focus on the assessment of significance in genetic association analysis of single or multi-dimensional phenotypes, including high-dimensional phenotypes,
+where association is being tested with either a single genetic marker or with multiple genetic markers simultaneously such as in gene/region-based tests. 
+Existing approaches are either computationally burdensome (permutation-based approaches), or do not perform well in settings such as small samples, high-dimensional traits, or misspecified phenotype model, or do not account for existing sample structure when it is present. We develop a novel method to assess significance for a broad class of test statistics currently used in gentic association analyses that is based on moment-matching and allows for very general population structure and relatedness in the data.
+
+:::
+

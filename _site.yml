@@ -1,0 +1,36 @@
+name: "joellembatchou_website"
+title: "Joelle Mbatchou PhD"
+description: |
+  Joelle Mbatchou's personal website
+favicon: JTM_Logo.png
+creative_commons: CC BY
+twitter:
+  site: "@joellembatchou"
+output_dir: "docs"
+navbar:
+  logo: 
+    image: JTM_Logo.png
+    href: https://joellesophya.github.io/
+  left:
+    - text: "Research"
+      href: research.html
+    - text: "Publications"
+      href: pubs.html
+    - text: "CV"
+      href: cv/cv.html
+    - text: "Contact"
+      href: contact.html
+  right:
+    - icon: fab fa-github
+      href: https://github.com/joellesophya
+    - icon: fab fa-twitter
+      href: https://twitter.com/joellembatchou
+    - icon: fab fa-linkedin-in
+      href: https://www.linkedin.com/in/jmbatchou/
+    - icon: ai ai-google-scholar fa-lg
+      href: https://scholar.google.com/citations?hl=en&user=njW-kAMAAAAJ
+output: 
+  distill::distill_article:
+    theme: assets/theme.css
+    includes:
+      in_header: assets/header.html

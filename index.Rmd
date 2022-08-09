@@ -1,0 +1,32 @@
+---
+title: "Joelle Mbatchou, PhD"
+description: |
+  Welcome to the website. I hope you enjoy it!
+site: distill::distill_website
+base_url: https://www.joellesophya.github.io
+image: jtm_2022.png
+links:
+  - label: '<i class="fab fa-linkedin"></i> LinkedIn'
+    url: "https://www.linkedin.com/in/jmbatchou/"
+  - label: '<i class="fab fa-github"></i> GitHub'
+    url: "https://github.com/joellesophya"
+  - label: '<i class="fab fa-twitter"></i> Twitter'
+    url: "https://twitter.com/joellembatchou"
+  - label: '<i class="ai ai-google-scholar fa-lg"></i> Google Scholar'
+    url: "https://scholar.google.com/citations?hl=en&user=njW-kAMAAAAJ"
+  - label: '<i class="fas fa-envelope"></i> Email'
+    url: "mailto:joelle.mbatchou@gmail.com"
+output:
+  postcards::jolla
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+#### Welcome to my website! 
+
+I am a statistical geneticist who is passionate about leveraging
+large scale genetic datasets to help improve our understanding
+of the relationshp between genetics and human disease.
+

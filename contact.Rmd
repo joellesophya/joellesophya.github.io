@@ -1,0 +1,18 @@
+---
+title: "Contact me"
+description: |
+  I look forward to connect with you!
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+paste.link <- function(text, link)
+    paste0("[", text, "](", link, ")")
+```
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-envelope"></i>`r paste.link("joelle(dot)mbatchou(at)gmail(dot)com","mailto:joelle.mbatchou@gmail.com")`</li>
+  <li><i class="fa-li fa fa-twitter"></i>`r paste.link("joellembatchou","https://twitter.com/joellembatchou")`</li>
+  <li><i class="fa-li fa fa-linkedin"></i>`r paste.link("jmbatchou","https://www.linkedin.com/in/jmbatchou/")`</li>
+<li><i class="fa-li fa fa-map"></i>777 Old Saw Mill River Road • Tarrytown, NY 10591 • USA</li>
+</ul>
