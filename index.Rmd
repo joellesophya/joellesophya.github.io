@@ -18,6 +18,7 @@ links:
     url: "mailto:joelle.mbatchou@gmail.com"
 output:
   postcards::jolla
+favicon: JTM_Logo.png
 ---
 
 ```{r setup, include=FALSE}
