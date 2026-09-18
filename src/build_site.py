@@ -438,7 +438,7 @@ def page_pubs() -> str:
     body = f"""
     <p class="eyebrow">Scholarship</p>
     <h1>My publications</h1>
-    <p class="lede">Generated from <code>docs/assets/myrefs.bib</code> ({len(publications)} entries). First-author papers are marked.</p>
+    <p class="lede">First-author papers are marked.</p>
     <p style="margin-top:-0.5rem"><a href="https://scholar.google.com/citations?hl=en&amp;user=njW-kAMAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar profile</a></p>
     <ol class="pub-list">
       {''.join(items)}
